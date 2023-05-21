@@ -1,11 +1,11 @@
 package Command;
 
-public class Command implements ICommand
+public class LightCommand implements ICommand
 {
     private Light light;
 
     // DI Light into the command as the command is sent to the Light.
-    public Command(Light light)
+    public LightCommand(Light light)
     {
         this.light = light;
     }

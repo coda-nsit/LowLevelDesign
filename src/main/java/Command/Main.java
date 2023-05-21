@@ -7,7 +7,7 @@ public class Main
         Remote remote = new Remote();
 
         Light light = new Light();
-        ICommand command = new Command(light);
+        ICommand command = new LightCommand(light);
 
         command.sendCommand();
         command.unSendCommand();
