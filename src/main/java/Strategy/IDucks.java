@@ -1,2 +1,6 @@
-package Strategy;public class IDucks {
+package Strategy;
+
+public interface IDucks {
+    public void talk();
+
 }

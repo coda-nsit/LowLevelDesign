@@ -1,2 +1,5 @@
-package Strategy;public class IFlyStrategy {
+package Strategy;
+
+public interface IFlyStrategy {
+    public void fly();
 }
