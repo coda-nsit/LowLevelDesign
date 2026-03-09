@@ -7,7 +7,7 @@ public class WithChocolateChips extends IceCreamDecorator{
     }
     @Override
     public String getDescription() {
-        return iceCream.getDescription();
+        return iceCream.getDescription() + " with chocolate Chips";
     }
 
     @Override

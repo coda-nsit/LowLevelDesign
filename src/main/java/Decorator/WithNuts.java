@@ -7,7 +7,7 @@ public class WithNuts extends IceCreamDecorator{
     }
     @Override
     public String getDescription() {
-        return iceCream.getDescription();
+        return iceCream.getDescription() + " with  raisins and Almonds";
     }
 
     @Override
