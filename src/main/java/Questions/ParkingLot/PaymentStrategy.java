@@ -1,5 +1,5 @@
 package Questions.ParkingLot;
 
-public interface Payment {
-    PaymentInfo pay(Ticket parkingTicket);
+public interface PaymentStrategy {
+    PaymentInfo pay(Ticket var1);
 }
