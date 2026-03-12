@@ -240,3 +240,4 @@ The design can be extended with additional features such as:
 * Design Patterns
 
     * **State Pattern**
+
