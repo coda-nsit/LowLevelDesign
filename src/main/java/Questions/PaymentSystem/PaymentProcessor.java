@@ -1,5 +1,6 @@
 package Questions.PaymentSystem;
 
-public class PaymentProcessor {
-    
+public interface PaymentProcessor {
+    void processPayment(double amount);
+
 }
