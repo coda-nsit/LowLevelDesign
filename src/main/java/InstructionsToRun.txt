@@ -1,0 +1,3 @@
+To run DesignPattern.Proxy.S3.Client
+> javac -d target/classes src/main/java/DesignPattern/Proxy/S3/*.java
+> java -cp target/classes DesignPattern.Proxy.S3.Client
