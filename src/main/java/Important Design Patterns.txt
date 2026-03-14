@@ -1,0 +1,12 @@
+Abstract Factory
+Builder
+Singleton
+Adapter
+Bridge
+Decorator
+Facade
+Proxy
+Command
+Observer
+State
+Strategy
