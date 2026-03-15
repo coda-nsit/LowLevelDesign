@@ -1,4 +1,9 @@
 package DesignPattern.State.MusicPlayer;
 
-public class IMusicPlayer {
+public interface IMusicPlayer {
+    public void pressPlay();
+    public void pressPause();
+    public void pressStop();
+
+    public void setState(IState state);
 }
