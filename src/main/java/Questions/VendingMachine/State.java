@@ -2,7 +2,7 @@ package Questions.VendingMachine;
 
 //State (interface)
 // ├── insertCoin()
-//├── selectProduct()
+// ├── selectProduct()
 // ├── dispense()
 
 
