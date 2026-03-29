@@ -1,10 +1,13 @@
-package Decorator;
+package DesignPattern.Decorator.IceCream;
 
-public class WithChocolateChips extends IceCreamDecorator{
-    IceCream iceCream;
-    public WithChocolateChips(IceCream iceCream) {
+public class WithChocolateChips extends IceCreamBaseFlavorDecorator {
+
+    IceCreamBaseFlavor iceCream;
+
+    public WithChocolateChips(IceCreamBaseFlavor iceCream) {
         this.iceCream = iceCream;
     }
+
     @Override
     public String getDescription() {
         return iceCream.getDescription() + " with chocolate Chips";

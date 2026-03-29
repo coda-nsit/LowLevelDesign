@@ -1,6 +1,6 @@
-package State;
+package DesignPattern.State.TrafficSignal;
 
-public class GreenLigh implements Light{
+public class GreenLight implements Light{
     @Override
     public void change(TrafficLight trafficLight){
         System.out.println("Green Light - Go");

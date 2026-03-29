@@ -1,4 +1,4 @@
-package State;
+package DesignPattern.State.TrafficSignal;
 
 public class RedLight implements Light{
     @Override

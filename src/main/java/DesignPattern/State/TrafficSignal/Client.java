@@ -1,4 +1,4 @@
-package State;
+package DesignPattern.State.TrafficSignal;
 
 public class Client {
     public static void main(String[] args) {
